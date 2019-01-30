@@ -13,11 +13,22 @@ public class Student {
     
    private String name;
    private int ID;
+   private String surname;
 
-    public Student(String name, int ID) {
+    public Student(String name, int ID , String surname) {
         this.name = name;
         this.ID = ID;
+        this.surname = surname;
     }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+    
 
     public String getName() {
         return name;
