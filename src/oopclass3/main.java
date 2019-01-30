@@ -60,11 +60,11 @@ public class main {
             
         }*/
         
-        Student first = new Student("avnish", 1236);
-        Student second = new Student("Jhon", 4789);
-        Student third = new Student("ben", 7689);
-        Student fourth = new Student("mike", 7889);
-        Student five = new Student("vlad", 7819);
+        Student first = new Student("avnish", 1236 , "ab");
+        Student second = new Student("Jhon", 4789,"asd");
+        Student third = new Student("ben", 7689,"asdd");
+        Student fourth = new Student("mike", 7889,"a32sd");
+        Student five = new Student("vlad", 7819,"543");
         
         Student arr[]=new Student[5];
         arr[0]=first;
