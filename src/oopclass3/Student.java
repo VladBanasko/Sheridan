@@ -13,6 +13,27 @@ public class Student {
     
     private double bank;
     
+    private boolean partTime;
+
+    /**
+     * Get the value of partTime
+     *
+     * @return the value of partTime
+     */
+    public boolean isPartTime() {
+        return partTime;
+    }
+
+    /**
+     * Set the value of partTime
+     *
+     * @param partTime new value of partTime
+     */
+    public void setPartTime(boolean partTime) {
+        this.partTime = partTime;
+    }
+
+    
    private String name;
    private int ID;
    private String surname;
