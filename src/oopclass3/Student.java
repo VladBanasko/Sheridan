@@ -12,6 +12,7 @@ package oopclass3;
 public class Student {
     
     private double bank;
+    private int ddd;
     
    private String name;
    private int ID;
