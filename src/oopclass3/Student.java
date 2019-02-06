@@ -11,6 +11,8 @@ package oopclass3;
  */
 public class Student {
     
+    private String nick;
+    
    private String name;
    private int ID;
    private String surname;
